@@ -461,8 +461,8 @@ li{
 }
 
 .online_consultant{
-    position: absolute;
-    top: 875px;
+    position: fixed;
+    bottom: 175px;
     right: 37px;
     cursor: pointer;
 }
@@ -472,3 +472,62 @@ li{
 }
 
 
+/* НАША ПРОДУКЦИЯ */
+
+.production-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 28px;
+    max-width: 1077px;
+}
+
+.production-item{
+    text-align: center;
+    display: inline-block;
+    outline: none;
+}
+
+.production-item:hover img{
+    transform: translateY(-8px) scale(1.1);
+    transition: 0.3s;
+}
+
+.production-item:hover p{
+    color: #ffaa2a;
+    transition: 0.3s;
+}
+
+.production-item .production-item__img{
+    width: 100%;
+}
+
+.production-item__img img{
+    width: 100%;
+    object-fit: cover;
+    transition: 0.3s;
+}
+
+.production-item p{
+    font-size:20px;
+    font-family: "Rubikmedium";
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #6e4533;
+    max-width: 200px;
+    margin: 10px auto;
+}
+
+.production-fon{
+    width: 100%;
+    padding-bottom: 0px;
+}
+
+.production-fon img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.production-wrapper{
+    padding-left: 46px;
+    padding-right: 30px;
+}
